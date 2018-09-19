@@ -1,0 +1,30 @@
+{
+  "name": "artmarkov/yii2-mytest",
+  "description": "Package",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "test"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artur Markov",
+      "email": "artmarkov@mail.ru",
+      "homepage": "https://github.com/artmarkov/yii2-mytest",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "extra": {
+    "bootstrap": "artmarkov\\mytest\\Bootstrap"
+  },
+  "autoload": {
+    "psr-4": {
+      "artmarkov\\mytest\\": "src"
+    }
+  }
+}
