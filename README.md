@@ -1,4 +1,5 @@
 yii2-mytest
+
 https://klisl.com/yii2-extension.html
 =================
 
@@ -17,7 +18,7 @@ https://klisl.com/yii2-extension.html
 ------------------
 * Установка пакета с помощью Composer
 ```
-composer require artmarkov/yii2-mytest:dev-master --prefer-source
+composer require artmarkov/yii2-mytest:dev-master --prefer-source (локально)
 composer require artmarkov/yii2-mytest
 ```
 
@@ -28,5 +29,3 @@ yii migrate --migrationPath=@artmarkov/mytest/migrations --interactive=0
 
 Использование
 ------------------
-
-Мой блог:
